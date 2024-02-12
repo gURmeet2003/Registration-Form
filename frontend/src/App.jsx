@@ -10,7 +10,7 @@ function App() {
     e.preventDefault();
 
     axios
-      .post(`${window.location.origin}/user`, { name, email, password })
+      .post("https://registration-form-74m6.vercel.app/user", { name, email, password })
       .then((data) => {
         setName("");
         setEmail("");
