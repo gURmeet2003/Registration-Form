@@ -16,6 +16,7 @@ function App() {
         setEmail("");
         setPassword("");
         console.log(data);
+        alert("Form Submitted");
       })
       .catch((e) => {
         console.log(e);
